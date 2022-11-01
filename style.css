@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+body { 
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#shape {
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: none;
+    position: relative;
+    
+
+}
+
+.bold {
+
+    font-weight: bold;
+}
+.topbar {
+    /* From https://css.glass */
+    background: rgba(255, 82, 15, 0.23);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 1px solid rgba(15, 174, 255, 0.14);
+
+}
+
+h1{
+    text-align: center;
+    color: brown;
+    font-family: 'Fasthand',sans-serif;
+
+}
+#instruction {
+    text-align: center;
+    font-size: 1rem;
+}
+
